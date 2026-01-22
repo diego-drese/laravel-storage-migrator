@@ -1,0 +1,22 @@
+{
+  "name": "diego-drese/laravel-storage-migrator",
+  "description": "Laravel package to migrate files between storages preserving paths",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "DiegoDrese\\StorageMigrator\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DiegoDrese\\StorageMigrator\\StorageMigratorServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+  }
+}
